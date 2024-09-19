@@ -46,12 +46,15 @@ li{
 .header_nav_list_item:focus {
 	color: #404bbf;
 }
-.contacts a {
+.contacts {
 	font-style: normal;
+}
+.contacts a {
+	
 	font-size: 16px;
-		line-height: 1.5;
-		letter-spacing: 0.02em;
-		color: #434455;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -119,6 +122,8 @@ text-align: center;
 }
 .footer-text {
 	color: #f4f4fd;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 .footer-section .logo {
 color: #4d5ae5;
